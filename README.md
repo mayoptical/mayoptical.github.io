@@ -1,1 +1,0 @@
-# mayoptical.github.io
