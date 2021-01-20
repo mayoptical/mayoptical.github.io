@@ -80,7 +80,7 @@ allow it to gain focus, making it tabbable */
 
 nav {
     position: absolute;
-    text-align: left;
+    text-align: center;
     top: 100%;
     left: 0;
     background: var(--background);
@@ -123,7 +123,7 @@ nav a:hover {
     transition: opacity 250ms ease-in-out 250ms;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1080px) {
     .nav-toggle-label {
         display: none;
     }
@@ -132,7 +132,8 @@ nav a:hover {
         grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
     }
     .logo {
-        grid-column: 2 / 3;
+        grid-column: 2/3;
+        padding-right: 100px;
     }
     nav {
         all: unset;
@@ -146,7 +147,7 @@ nav a:hover {
         top: initial;
         left: initial;
         /* end Edge support stuff */
-        grid-column: 3 / 4;
+        grid-column: 3/4;
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -183,7 +184,7 @@ nav a:hover {
     color: white;
 }
 
-article {
+h2 {
     margin-top: 100px;
 }
 
@@ -258,6 +259,12 @@ footer {
     flex: 1;
 }
 
+.col img {
+    width: 400px;
+    height: 400px;
+    padding: 15px;
+}
+
 @media (max-width: 400px) {
     .flex-grid {
         display: block;
@@ -285,6 +292,10 @@ footer a:hover {
     padding: 20px;
 }
 
+.footer-mid-left table {
+    width: 100%;
+}
+
 .footer-mid-left {
     width: 25%;
     float: left;
@@ -301,4 +312,8 @@ footer a:hover {
     float: right;
     width: 25%;
     padding: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
