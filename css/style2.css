@@ -47,38 +47,15 @@
     color: white;
 }
 
-
-/* BRANDS */
-
-.brands {
-    font-size: 50px;
-    margin-top: 75px;
-}
-
-.grid-container {
-    justify-content: center;
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
-}
-
-.grid-item {
-    font-size: 40px;
-    text-align: center;
-}
-
-.grid-item img {
-    width: 175px;
-    height: 100px;
-}
-
 #main {
-    margin-bottom: 600px;
+    margin-bottom: 500px;
 }
 
 
 /* ABOUT */
 
 #about {
+    background-image: url(../imgs/bg3.jpg);
     margin: auto;
     max-width: 1000px;
     justify-content: center;
@@ -88,6 +65,7 @@
 }
 
 #about h2 {
+    margin-top: 100px;
     font-size: 35px;
     color: rgb(255, 255, 255);
     background: black;
@@ -111,4 +89,30 @@
 
 /* PRODUCTS */
 
-background-color: lightpink;
+#products {
+    margin: 50px;
+}
+
+
+/* BRANDS */
+
+.brands {
+    font-size: 50px;
+    margin-top: 75px;
+}
+
+.grid-container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.grid-item {
+    font-size: 40px;
+    text-align: center;
+}
+
+.grid-item img {
+    width: 175px;
+    height: 100px;
+}
