@@ -37,13 +37,15 @@
     display: inline-block;
     padding: 10px 25px;
     color: black;
-    background-color: #ddd;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
     text-align: center;
     cursor: pointer;
+    border: 0.1em solid #000000;
 }
 
 .hero-text button:hover {
-    background-color: #555;
+    background-color: rgb(0, 77, 153);
     color: white;
 }
 
@@ -96,9 +98,14 @@
 
 /* BRANDS */
 
+#brands {
+    background-image: url(../imgs/bgbg2.png);
+}
+
 .brands {
     font-size: 50px;
     margin-top: 75px;
+    text-align: center;
 }
 
 .grid-container {
@@ -115,4 +122,100 @@
 .grid-item img {
     width: 175px;
     height: 100px;
+}
+
+#btn {
+    text-align: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.2em solid #000000;
+    margin: 0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #000000;
+    text-align: center;
+    transition: all 0.2s;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+#btn:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+@media all and (max-width:30em) {
+    #btn {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+
+/* SERVICES */
+
+#services {
+    background-color: lightblue;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#services h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: -20px;
+}
+
+#services h3 {
+    font-size: 30px;
+}
+
+#services ul {
+    list-style-position: inside;
+}
+
+
+/* HOURS */
+
+#hours {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#hrs {
+    font-size: 30px;
+}
+
+
+/* CONTACT */
+
+#contact {}
+
+
+/* footer */
+
+.footer {
+    padding: 20px;
+}
+
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
 }
