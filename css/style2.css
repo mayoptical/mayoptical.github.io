@@ -160,7 +160,7 @@
 /* SERVICES */
 
 #services {
-    background-color: rgb(122, 155, 255);
+    background-color: rgb(255, 255, 255);
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -186,6 +186,11 @@
     margin-bottom: 60px;
 }
 
+#services-col {
+    float: left;
+    width: 33.3%;
+}
+
 
 /* HOURS */
 
@@ -193,7 +198,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    background-color: gray;
+    background-color: rgb(236, 236, 236);
     padding-bottom: 100px;
     padding-top: 60px;
 }
