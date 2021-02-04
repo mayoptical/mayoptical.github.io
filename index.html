@@ -26,7 +26,7 @@
 
         <!-- NAV BAR -->
         <header>
-            <h1 class="logo"><a class="logo" href="index.html">May Optical</a></h1>
+            <h1 class="logo"><a class="logo" href="#home">May Optical</a></h1>
             <input type="checkbox" id="nav-toggle" class="nav-toggle">
             <nav>
                 <ul>
@@ -34,7 +34,7 @@
                     <li><a href="#nav-about">About</a></li>
                     <li><a href="#products">Products</a></li>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="#hours">Hours</a></li>
+                    <li><a href="#insurance">Insurance</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -61,17 +61,12 @@
                 <div>
                     <img src="imgs/store.png" alt="May Optical Store">
                     <p>
-                        At May Optical, we have been providing quality eyewear to the Toronto community for over 25 years. Originally opened by Paul Lau in 1985 on Dundas and Spadina, we are now located in Scarborough on Silver Star Blvd and Steeles Ave. We have a great selection
-                        of unique designer frames, sunglasses, contact lenses and more. We strive to meet each customer’s visual needs with our experience, knowledge and our everyday great prices.
+                        May Optical is a generational family business and has been providing quality eyewear to the Greater Toronto Area since 1985. Originally located on Dundas and Spadina, we relocated to Silver Star Blvd and Steeles Ave. in 2005. We have a unique selection
+                        of frames, sunglasses, contact lenses and are always on the look out for the latest products.
+
+
                     </p>
-                    <p>
-                        At May Optical, we have been providing quality eyewear to the Toronto community for over 25 years. Originally opened by Paul Lau in 1985 on Dundas and Spadina, we are now located in Scarborough on Silver Star Blvd and Steeles Ave. We have a great selection
-                        of unique designer frames, sunglasses, contact lenses and more. We strive to meet each customer’s visual needs with our experience, knowledge and our everyday great prices.
-                    </p>
-                    <p>
-                        At May Optical, we have been providing quality eyewear to the Toronto community for over 25 years. Originally opened by Paul Lau in 1985 on Dundas and Spadina, we are now located in Scarborough on Silver Star Blvd and Steeles Ave. We have a great selection
-                        of unique designer frames, sunglasses, contact lenses and more. We strive to meet each customer’s visual needs with our experience, knowledge and our everyday great prices.
-                    </p>
+                    <p>With clientele spanning 4 generations, we pride ourselves in treating each customer as family and strive to meet each person's visual needs with our experience, knowledge and our everyday great prices.</p>
 
                 </div>
             </section>
@@ -86,7 +81,7 @@
 
         <!-- BRANDS -->
         <section id="brands">
-            <h1 class="brands">ALL THE BRANDS YOU LOVE</h1>
+            <h1 class="brands">THE BRANDS YOU LOVE</h1>
             <div class="grid-container">
                 <div class="grid-item"><img src="imgs/b1.png" alt="For Art's Sake"></div>
                 <div class="grid-item"><img src="imgs/b2.png" alt="TOM FORD"></div>
@@ -99,13 +94,16 @@
                 <div class="grid-item"><img src="imgs/b9.png" alt="Tom's"></div>
             </div>
             <div style="text-align:center">
-                <button id="btn">VIEW ALL</button>
+
+                <button onclick="seeMore()" id="btn">SEE MORE</button>
+
             </div>
-
-
-            <span id="more">
-
-        </span>
+            <span id="dots"></span>
+            <div id="more-div">
+                <span id="more">
+                Adidas, Gianfranco Ferre, Porsche
+            </span>
+            </div>
         </section>
 
         <!-- SERVICES -->
@@ -113,11 +111,11 @@
             <article>
                 <h2> SERVICES</h2>
 
-                <div id="services-col">
-                    <img height="400px" src="imgs/g1-nobg.png" alt="sillhouette glasses">
+                <!-- <div id="services-col">
+                    <img height="400px" src="imgs/g1-nobg.png" alt="sillhouette glasses"> 
 
 
-                </div>
+    </div>-->
 
                 <div id="services-col">
                     <h3> We provide:</h3>
@@ -147,13 +145,26 @@
                 </div>
 
 
-                <div id="services-col">
-                    <img height="400px" src="imgs/lens-nobg.png" alt="sillhouette glasses">
-                </div>
+                <!-- <div id="services-col">
+        <img height="400px" src="imgs/lens-nobg.png" alt="sillhouette glasses">
+    </div> -->
             </article>
         </section>
 
-        <!-- HOURS -->
+        <!-- INSURANCE -->
+        <section id="insurance">
+            <h2>INSURANCE PARTNERS</h2>
+
+
+            <img src="imgs/insurance.jpg" alt="insurance partenrs">
+
+
+
+            <iframe width="700" height="400" src="https://www.youtube.com/embed/APFu-GMqEcU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </section>
+
+        <!-- moved to contact HOURS
         <section id="hours">
             <div id="hours-div">
                 <h2 id="hrs">HOURS</h2>
@@ -190,19 +201,20 @@
                     </tbody>
                 </table>
                 <div style="margin-top: 20px;">Please note that we are closed on all statutory holidays.</div>
-                <div style="margin-top: 20px;"> For extended hours Call/Text via WhatsApp <a href="tell:+1 416-291-8989">(416) 291-8989</a></div>
 
-            </div>
+            </div> -->
 
         </section>
         <section id="follow">
 
             <h2>FOLLOW US</h2>
-            <div>
+            <div id="follow-links">
                 <a href="https://www.facebook.com/mayopticalca/" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
+
                 <a href="https://www.instagram.com/mayoptical/" target="_blank"><i class="fab fa-instagram-square fa-3x"></i></a>
             </div>
-
+            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+            <div class="elfsight-app-fb85f815-22c5-423f-8e94-e2808139d4ec"></div>
 
 
         </section>
@@ -211,24 +223,19 @@
             <div class="float-container">
 
                 <div class="float-child">
-                    <div class="blue">Phone: <br><a href="tel:+1 416-291-8989"> (416) 291-8989</a></div>
-
-
+                    <div class="float-address"><b>Address:</b> <br>668 Silver Star Blvd. Unit 206, Scarborough, ON, M1V 5N1</div>
                 </div>
 
-                <div class="float-child">
-                    <div class="green">Email: <br><a href="mailto:info.mayoptical@gmail.com">info.mayoptical@gmail.com</a>
+                <div class="float-child1">
+                    <div class="blue"><b>Phone:</b> <br><a href="tel:+1 416-291-8989"> (416) 291-8989</a><br></div>
+                </div>
 
-
+                <div class="float-child1">
+                    <div class="green"><b>Email:</b> <br><a href="mailto:info.mayoptical@gmail.com">info.mayoptical@gmail.com</a>
                     </div>
-
-                </div>
-                <div class="float-child">
-                    <div class="float-address">Address: <br>668 Silver Star Blvd. Unit 206, <br>Scarborough, ON, M1V 5N1</div>
-
                 </div>
 
-                <div class="float-child">
+                <div class="float-child2">
                     <div class="blue">
                         <section id="map">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11514.35648086294!2d-79.3009995!3d43.8228814!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa567a537795e4c53!2sMay%20Optical!5e0!3m2!1sen!2sca!4v1612149661963!5m2!1sen!2sca" width="800" height="300"
@@ -236,24 +243,68 @@
                         </section>
                     </div>
                 </div>
+
+
+                <div class="float-child2">
+                    <b>Hours:</b>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Monday</td>
+                                <td>11:00 - 5:00</td>
+                            </tr>
+                            <tr>
+                                <td>Tuesday&nbsp;</td>
+                                <td>Closed</td>
+                            </tr>
+                            <tr>
+                                <td>Wednesday&nbsp;</td>
+                                <td>Closed</td>
+                            </tr>
+                            <tr>
+                                <td>Thursday&nbsp;</td>
+                                <td>11:00 - 5:00</td>
+                            </tr>
+                            <tr>
+                                <td>Friday&nbsp;</td>
+                                <td>11:00 - 5:00&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday</td>
+                                <td>11:00 - 4:00&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday&nbsp;</td>
+                                <td>12:00 - 4:00&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div style=" margin-top: 20px; ">Please note that we are closed on all statutory holidays.</div>
+
+                </div>
+
+
+
             </div>
+
+
 
         </section>
 
 
 
-        <footer class="footer">
+        <footer class="footer ">
             Copyright © 2021 May Optical. All rights reserved.
         </footer>
 
     </div>
 
     <!--FONTAWESOME ICONS-->
-    <script src="https://kit.fontawesome.com/42de2dc56d.js" crossorigin="anonymous"></script>
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/42de2dc56d.js " crossorigin="anonymous "></script>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css " rel="stylesheet ">
 
     <!-- JAVA SCRIPT -->
-    <script src="js/script.js"></script>
+    <script src="js/script.js "></script>
 
 </body>
 

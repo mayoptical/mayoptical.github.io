@@ -67,6 +67,7 @@
 }
 
 #about h2 {
+    padding-left: 10px;
     margin-top: 100px;
     font-size: 35px;
     color: rgb(255, 255, 255);
@@ -79,13 +80,16 @@
 #about img {
     justify-content: center;
     height: 100%;
-    width: 350px;
+    width: 400px;
     float: left;
     margin-right: 20px;
+    margin-left: 20px;
 }
 
 #about p {
     text-align: left;
+    font-size: 20px;
+    padding: 15px;
 }
 
 
@@ -135,18 +139,29 @@
     margin: 0 0.3em 0.3em 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
     color: #000000;
     text-align: center;
     transition: all 0.2s;
     margin-top: 50px;
     margin-bottom: 75px;
+    font-size: 15px;
 }
 
 #btn:hover {
-    color: #000000;
-    background-color: #FFFFFF;
+    color: #ffffff;
+    background-color: #242222;
+}
+
+#more-div {
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#more {
+    display: none;
 }
 
 @media all and (max-width:30em) {
@@ -160,7 +175,13 @@
 /* SERVICES */
 
 #services {
-    background-color: rgb(255, 255, 255);
+    height: 100%;
+    position: relative;
+    /* background-image: url(../imgs/bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    background-color: rgb(231, 235, 240);
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -187,13 +208,17 @@
 }
 
 #services-col {
-    float: left;
-    width: 33.3%;
+    justify-content: center;
+    width: 100%;
 }
 
+#services img {}
 
-/* HOURS */
 
+/* moved HOURS to contact */
+
+
+/* unused
 #hours {
     margin: 0 auto;
     display: flex;
@@ -211,6 +236,19 @@
 #hrs {
     font-size: 50px;
     text-align: center;
+} 
+*/
+
+#insurance {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+#insurance h2 {
+    font-size: 50px;
 }
 
 
@@ -228,6 +266,8 @@
 }
 
 #follow a {
+    font-size: 20px;
+    padding: 5px;
     color: rgb(255, 255, 255);
 }
 
@@ -235,11 +275,15 @@
     color: rgb(185, 174, 174);
 }
 
+#follow-links {
+    padding-bottom: 25px;
+}
+
 
 /* CONTACT */
 
 #contact {
-    margin-top: 50px;
+    padding-top: 60px;
     margin-bottom: 100px;
 }
 
@@ -272,9 +316,18 @@
 }
 
 .float-child {
-    width: 50%;
+    width: 33.3%;
     float: left;
     padding: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+}
+
+.float-child1 {
+    width: 33.3%;
+    float: left;
+    padding: 20px;
+    margin-bottom: 30px;
     border: 2px solid rgb(255, 255, 255);
     text-align: center;
 }
@@ -282,4 +335,18 @@
 .float-address {
     align-content: center;
     height: 50%;
+}
+
+.float-child2 {
+    margin-top: 30px;
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+}
+
+.float-child2 table {
+    margin-left: auto;
+    margin-right: auto;
 }
