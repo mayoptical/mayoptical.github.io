@@ -24,7 +24,9 @@ body {
     }
     .logo {
         grid-column: 2/3;
-        padding-right: 100px;
+        text-align: center;
+        padding-left: 0px;
+        font-size: 30px;
     }
     nav {
         all: unset;
@@ -75,14 +77,6 @@ body {
     color: white;
 }
 
-footer {
-    width: 100%;
-    height: 100%;
-    background-color: rgb(1, 71, 141);
-    text-align: center;
-    color: #ffffff;
-}
-
 .center {
     display: block;
     margin-left: auto;
@@ -98,30 +92,6 @@ footer {
     flex: 1 100%;
 }
 
-@media all and (min-width: 600px) {
-    .aside {
-        flex: 1 0 0;
-    }
-}
-
-@media all and (min-width: 800px) {
-    .main {
-        flex: 3 0px;
-    }
-    .aside-1 {
-        order: 1;
-    }
-    .main {
-        order: 2;
-    }
-    .aside-2 {
-        order: 3;
-    }
-    .footer {
-        order: 4;
-    }
-}
-
 .flex-grid {
     display: flex;
 }
@@ -134,12 +104,6 @@ footer {
     width: 400px;
     height: 400px;
     padding: 15px;
-}
-
-@media (max-width: 400px) {
-    .flex-grid {
-        display: block;
-    }
 }
 
 a {

@@ -76,19 +76,19 @@ nav {
 
 nav ul {
     margin: 0;
-    padding: 0;
     list-style: none;
 }
 
 nav li {
     margin-bottom: 1em;
     margin-left: 1em;
+    margin-right: -25px;
 }
 
 nav a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
     opacity: 0;
     transition: opacity 150ms ease-in-out;
