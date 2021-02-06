@@ -280,6 +280,20 @@
 }
 
 
+/* REVIEWS */
+
+#reviews {
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#reviews h2 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+
 /* CONTACT */
 
 #contact {
