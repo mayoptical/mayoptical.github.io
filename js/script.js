@@ -18,6 +18,8 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
+
+// See more btn
 function seeMore() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");

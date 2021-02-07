@@ -60,7 +60,7 @@
 #about {
     background-color: rgb(218, 228, 255);
     margin: auto;
-    max-width: 90%;
+    max-width: 80%;
     height: 100%;
     justify-content: center;
     -webkit-box-shadow: 0 10px 6px -6px rgba(119, 119, 119, 0.616);
@@ -80,12 +80,11 @@
 }
 
 #about img {
+    margin-right: 2%;
     justify-content: center;
     height: 100%;
-    width: 400px;
     float: left;
-    margin-right: 20px;
-    margin-left: 20px;
+    width: auto;
 }
 
 #about p {
@@ -164,6 +163,8 @@
 
 #more {
     display: none;
+    font-size: 2vh;
+    padding: 20px;
 }
 
 @media all and (max-width:30em) {
@@ -360,29 +361,6 @@
 }
 
 .float-child {
-    width: 33.3%;
-    float: left;
-    padding: 20px;
-    border: 2px solid rgb(255, 255, 255);
-    text-align: center;
-}
-
-.float-child1 {
-    width: 33.3%;
-    float: left;
-    padding: 20px;
-    margin-bottom: 30px;
-    border: 2px solid rgb(255, 255, 255);
-    text-align: center;
-}
-
-.float-address {
-    align-content: center;
-    height: 50%;
-}
-
-.float-child2 {
-    margin-top: 30px;
     width: 50%;
     float: left;
     padding: 20px;
@@ -390,7 +368,24 @@
     text-align: center;
 }
 
-.float-child2 table {
+.float-child1 {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+}
+
+.float-child2 {
+    margin-top: 30px;
+    width: 100%;
+    float: left;
+    padding: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+}
+
+.float-child table {
     margin-left: auto;
     margin-right: auto;
 }

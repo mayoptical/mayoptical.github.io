@@ -8,9 +8,9 @@ header {
     left: 0;
     top: 0;
     width: 100%;
-    -webkit-box-shadow: 0 10px 6px -6px rgba(119, 119, 119, 0.616);
-    -moz-box-shadow: 0 10px 6px -6px rgba(119, 119, 119, 0.616);
-    box-shadow: 0 10px 6px -6px rgba(119, 119, 119, 0.616);
+    -webkit-box-shadow: 0 10px 6px -6px rgba(175, 175, 175, 0.616);
+    -moz-box-shadow: 0 10px 6px -6px rgba(175, 175, 175, 0.616);
+    box-shadow: 0 10px 6px -6px rgba(175, 175, 175, 0.616);
 }
 
 
@@ -64,7 +64,7 @@ allow it to gain focus, making it tabbable */
 
 nav {
     position: absolute;
-    text-align: center;
+    text-align: left;
     top: 100%;
     left: 0;
     background: var(--background);
@@ -95,7 +95,8 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(224, 224, 224);
+    text-decoration: underline;
 }
 
 .nav-toggle:checked~nav {
