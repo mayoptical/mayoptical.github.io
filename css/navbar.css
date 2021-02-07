@@ -80,24 +80,19 @@ nav ul {
 }
 
 nav li {
-    margin-bottom: 1em;
-    margin-left: 1em;
-    margin-right: -25px;
+    margin-right: -30px;
 }
 
 nav a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     opacity: 0;
     transition: opacity 150ms ease-in-out;
 }
 
-nav a:hover {
-    color: rgb(224, 224, 224);
-    text-decoration: underline;
-}
+nav a:hover {}
 
 .nav-toggle:checked~nav {
     transform: scale(1, 1);

@@ -20,6 +20,8 @@
         }
         .float-child1 {
             width: 100%;
+            margin-bottom: 5%;
+            margin-top: 2%;
         }
         .float-address {
             align-content: center;
@@ -88,5 +90,12 @@
         .slogan2 {
             margin-top: -2vh;
             font-size: 2vh;
+        }
+        .float-container {
+            border: 3px solid #fff;
+            max-width: 100%;
+            padding-left: 0%;
+            padding-right: 0%;
+            margin: auto;
         }
     }
