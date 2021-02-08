@@ -1,3 +1,3 @@
-# mayoptical.github.io
+# MayOptical.com
 
 Website for MayOptical.com
