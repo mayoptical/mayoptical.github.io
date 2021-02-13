@@ -336,6 +336,32 @@
     margin-bottom: -20px;
 }
 
+.rev button {
+    text-align: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.2em solid #000000;
+    margin: 0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    transition: all 0.2s;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    font-size: 15px;
+}
+
+.rev button:hover {
+    color: #ffffff;
+    background-color: #242222;
+}
+
 
 /* CONTACT */
 
