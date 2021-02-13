@@ -4,6 +4,8 @@ Website for May Optical
 
 Languages:
 
-HTML, CSS, JS
+- HTML, CSS, JS
 
-IDE: Visual Studio Code
+IDE: 
+
+- Visual Studio Code
