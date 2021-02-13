@@ -1,6 +1,6 @@
 # MayOptical.com
 
-Website for May Optical
+Website for glasses vendor May Optical
 
 Languages:
 
