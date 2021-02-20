@@ -51,7 +51,7 @@
 }
 
 #main {
-    margin-bottom: 97vh;
+    margin-bottom: 115vh;
 }
 
 
@@ -105,6 +105,12 @@
 
 #brands {
     background-image: url(../imgs/bgbg2.png);
+    height: 150%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .brands {

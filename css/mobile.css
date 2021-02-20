@@ -12,6 +12,62 @@
             width: 100%;
         }
         body {}
+        header h1 {
+            margin-left: 44px;
+            margin-right: 44px;
+        }
+        .slogan1 {
+            padding-top: 5vh;
+        }
+        #contact {
+            margin-bottom: 10vh;
+        }
+        #brands {
+            width: 100%;
+            background-size: cover;
+            position: relative;
+        }
+        .grid-item img {
+            width: 70%;
+            height: auto;
+        }
+        .grid-container {}
+    }
+    
+    @media (max-width: 1400px) and (min-width: 1200px) {
+        header h1 {
+            padding-right: 150px;
+        }
+        #main {
+            padding-bottom: 10vh;
+        }
+    }
+    
+    @media (max-width: 1200px) and (min-width: 1100px) {
+        header h1 {
+            padding-right: 150px;
+        }
+        #main {
+            padding-bottom: 30vh;
+        }
+    }
+    
+    @media (max-width: 1100px) and (min-width: 1079px) {
+        header h1 {
+            padding-right: 150px;
+        }
+        #main {
+            padding-bottom: 15vh;
+        }
+    }
+    
+    @media (max-width: 1079px) and (min-width: 1000px) {
+        header h1 {
+            padding-right: 0px;
+        }
+        #main {
+            padding-bottom: 20vh;
+        }
     }
     
     @media (max-width: 1000px) {
