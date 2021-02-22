@@ -47,9 +47,27 @@
         }
     }
     
+    @media (min-width: 2000px) and (min-height:750px) {
+        #main {
+            padding-bottom: 50vh;
+        }
+    }
+    
+    @media (min-width: 2000px) and (min-height:500px) {
+        #main {
+            padding-bottom: 40vh;
+        }
+    }
+    
+    @media (min-width: 2000px) and (min-height:100px) {
+        #main {
+            padding-bottom: 50vh;
+        }
+    }
+    
     @media (min-width: 2000px) {
         #main {
-            padding-bottom: 30vh;
+            padding-bottom: 15vh;
         }
     }
     
