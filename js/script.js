@@ -35,3 +35,10 @@ function seeMore() {
         moreText.style.display = "inline";
     }
 }
+
+
+// Close nav menu on click (for mobile)
+function onClick() {
+    var links = document.querySelectorAll(".menu li a");
+    document.getElementById("nav-toggle").checked = false;
+}

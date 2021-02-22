@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/mobile.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <link rel="icon" type="image/png" href="imgs/logo.png" />
     <!--Google fonts-->
@@ -31,15 +32,15 @@
         <header>
             <h1 class="logo"><a class="logo" href="#home">May Optical</a></h1>
             <input type="checkbox" id="nav-toggle" class="nav-toggle">
-            <nav>
+            <nav class="menu">
                 <ul>
-                    <li><a href="#nav-about">About</a></li>
-                    <li><a href="#products">Products</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#insurance">Insurance</a></li>
-                    <li><a href="#follow">Gallery</a></li>
-                    <li><a href="#reviews">Reviews</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#nav-about" onclick='onClick();'>About</a></li>
+                    <li><a href="#products" onclick='onClick();'>Products</a></li>
+                    <li><a href="#services" onclick='onClick();'>Services</a></li>
+                    <li><a href="#insurance" onclick='onClick();'>Insurance</a></li>
+                    <li><a href="#follow" onclick='onClick();'>Gallery</a></li>
+                    <li><a href="#reviews" onclick='onClick();'>Reviews</a></li>
+                    <li><a href="#contact" onclick='onClick();'>Contact</a></li>
                 </ul>
             </nav>
             <label for="nav-toggle" class="nav-toggle-label">
