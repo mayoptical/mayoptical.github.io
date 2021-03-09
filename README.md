@@ -1,6 +1,8 @@
 # MayOptical.com
+Website for an eyewear vendor May Optical based in Scarborough, Ontario.
 
-Website for eyewear vendor May Optical
+*NOT FOR USE*
+Copyright May Optical and Kalvin Kao.
 
 Languages:
 
