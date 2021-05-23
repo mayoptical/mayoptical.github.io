@@ -150,7 +150,7 @@
         }
         .hero-image {
             width: 100%;
-            height: 50%;
+            height: 70%;
         }
         .slogan2 {
             padding: 10px;
@@ -165,7 +165,7 @@
             margin-bottom: 4vh;
         }
         #about img {
-            width: 100%;
+            width: 70%;
             float: none;
             margin-top: 0%;
             margin-right: 0%;
@@ -179,6 +179,12 @@
         }
         #about div {
             margin-bottom: -100px;
+        }
+        #abtleft {
+            width: 100%;
+        }
+        #abtright {
+            width: 100%;
         }
         #main {
             margin-bottom: 35vh;

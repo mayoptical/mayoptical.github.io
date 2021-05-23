@@ -2,7 +2,7 @@
 
 .hero-image {
     background-image: linear-gradient(rgba(255, 255, 255, 0.068), rgba(0, 0, 0, 0.151)), url("../imgs/bg.jpg");
-    height: 150%;
+    height: 130%;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -51,16 +51,25 @@
 }
 
 #main {
-    margin-bottom: 70vh;
+    margin-bottom: 60vh;
 }
 
 
 /* ABOUT */
 
 #about {
-    background-color: rgb(218, 228, 255);
+    background: linear-gradient( 180deg, #5287DF 0%, #78B3F3 100%);
+    background-image: linear-gradient(rgb(82, 135, 223) 0%, rgb(120, 179, 243) 100%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
     margin: auto;
-    max-width: 80%;
     height: 100%;
     justify-content: center;
     -webkit-box-shadow: 0 10px 6px -6px rgba(119, 119, 119, 0.616);
@@ -69,8 +78,7 @@
 }
 
 #about h2 {
-    padding-left: 10px;
-    margin-top: 100px;
+    text-align: center;
     font-size: 35px;
     color: rgb(255, 255, 255);
     background: black;
@@ -80,17 +88,34 @@
 }
 
 #about img {
-    margin-right: 2%;
-    justify-content: center;
+    width: 100%;
     height: 100%;
-    float: left;
-    width: auto;
+    -webkit-box-shadow: 0 10px 6px -6px rgb(3, 2, 2);
+    -moz-box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    border-radius: 5px;
 }
 
 #about p {
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    margin-left: 30px;
     text-align: left;
     font-size: 20px;
     padding: 15px;
+    border-radius: 5px;
+}
+
+#abtleft {
+    margin-left: 20%;
+    width: 30%;
+    float: left;
+}
+
+#abtright {
+    margin-right: 20%;
+    float: right;
+    width: 30%;
 }
 
 
@@ -189,7 +214,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; */
-    background-color: rgb(242, 245, 248);
+    background-image: linear-gradient(120deg, #f3f3f3 0%, #ffffff 100%);
     margin: 0 auto;
     display: flex;
     justify-content: center;
