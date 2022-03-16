@@ -69,11 +69,26 @@
         #main {
             padding-bottom: 50vh;
         }
+        #brands {
+            margin-top: 285px;
+        }
     }
     
     @media (max-width: 2000px) {
         #main {
             padding-bottom: 30vh;
+        }
+    }
+    
+    @media (min-width: 1800px) and (max-width: 1999px) {
+        #brands {
+            margin-top: 300px;
+        }
+    }
+    
+    @media (min-width: 1501px) and (max-width: 1799px) {
+        #brands {
+            margin-top: 285px;
         }
     }
     
@@ -116,6 +131,9 @@
         }
         #main {
             padding-bottom: 45vh;
+        }
+        #brand {
+            margin-top: 250px;
         }
     }
     
