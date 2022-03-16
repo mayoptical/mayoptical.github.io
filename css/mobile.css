@@ -77,6 +77,12 @@
         }
     }
     
+    @media (max-width: 1500px) and (min-width: 1200px) {
+        #brands {
+            margin-top: 250px;
+        }
+    }
+    
     @media (max-width: 1400px) and (min-width: 1200px) {
         header h1 {
             padding-right: 150px;
