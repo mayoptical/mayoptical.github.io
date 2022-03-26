@@ -1,0 +1,44 @@
+2022-03-16T23:28:56+00:00 CRITICAL require(): Failed opening required '/home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/views/jiggle-css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/optin-monster-wp-api.php on line 795
+
+2022-03-16T23:29:13+00:00 CRITICAL require(): Failed opening required '/home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/views/jiggle-css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/optin-monster-wp-api.php on line 795
+
+2022-03-16T23:29:25+00:00 CRITICAL require(): Failed opening required '/home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/views/jiggle-css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/optin-monster-wp-api.php on line 795
+
+2022-03-16T23:29:27+00:00 CRITICAL require(): Failed opening required '/home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/views/jiggle-css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/optin-monster-wp-api.php on line 795
+
+2022-03-16T23:29:32+00:00 CRITICAL require(): Failed opening required '/home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/views/jiggle-css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/optin-monster-wp-api.php on line 795
+
+2022-03-16T23:29:35+00:00 CRITICAL require(): Failed opening required '/home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/views/jiggle-css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/optin-monster-wp-api.php on line 795
+
+2022-03-16T23:29:48+00:00 CRITICAL require(): Failed opening required '/home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/views/jiggle-css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/optin-monster-wp-api.php on line 795
+
+2022-03-16T23:29:54+00:00 CRITICAL require(): Failed opening required '/home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/views/jiggle-css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/optin-monster-wp-api.php on line 795
+
+2022-03-16T23:29:54+00:00 CRITICAL require(): Failed opening required '/home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/views/jiggle-css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/optin-monster-wp-api.php on line 795
+
+2022-03-16T23:29:58+00:00 CRITICAL require(): Failed opening required '/home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/views/jiggle-css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/optin-monster-wp-api.php on line 795
+
+2022-03-16T23:30:07+00:00 CRITICAL require(): Failed opening required '/home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/views/jiggle-css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/optin-monster-wp-api.php on line 795
+
+2022-03-16T23:30:11+00:00 CRITICAL require(): Failed opening required '/home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/views/jiggle-css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/optin-monster-wp-api.php on line 795
+
+2022-03-16T23:30:28+00:00 CRITICAL require(): Failed opening required '/home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/views/jiggle-css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/optin-monster-wp-api.php on line 795
+
+2022-03-16T23:30:28+00:00 CRITICAL require(): Failed opening required '/home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/views/jiggle-css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/optin-monster-wp-api.php on line 795
+
+2022-03-16T23:30:31+00:00 CRITICAL require(): Failed opening required '/home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/views/jiggle-css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/optin-monster-wp-api.php on line 795
+
+2022-03-16T23:30:38+00:00 CRITICAL require(): Failed opening required '/home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/views/jiggle-css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/optin-monster-wp-api.php on line 795
+
+2022-03-16T23:30:49+00:00 CRITICAL require(): Failed opening required '/home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/views/jiggle-css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/optin-monster-wp-api.php on line 795
+
+2022-03-16T23:30:54+00:00 CRITICAL require(): Failed opening required '/home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/views/jiggle-css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/optin-monster-wp-api.php on line 795
+
+2022-03-16T23:31:00+00:00 CRITICAL require(): Failed opening required '/home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/views/jiggle-css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/optin-monster-wp-api.php on line 795
+
+2022-03-16T23:31:03+00:00 CRITICAL require(): Failed opening required '/home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/views/jiggle-css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/optin-monster-wp-api.php on line 795
+
+2022-03-16T23:31:11+00:00 CRITICAL require(): Failed opening required '/home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/views/jiggle-css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/optin-monster-wp-api.php on line 795
+
+2022-03-16T23:31:20+00:00 CRITICAL require(): Failed opening required '/home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/views/jiggle-css.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u217622089/domains/deadsnake.ca/public_html/wp-content/plugins/optinmonster/optin-monster-wp-api.php on line 795
+
