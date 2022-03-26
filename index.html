@@ -1,10 +1,292 @@
-<html>
+<!DOCTYPE html>
 
 <head>
+    <!--load all styles -->
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+    <link rel="icon" type="image/png" href="imgs/logo.png" />
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- FAVICON -->
+    <link rel="icon" href="imgs/icon.jfif">
+    <!-- Primary Meta Tags -->
+    <title>May Optical</title>
+    <meta name="title" content="May Optical">
+    <meta name="description" content="May Optical has been providing the GTA with quality and affordable eyewear since 1985.">
+    <meta name="keywords" content="May Optical, glasses, lens, prescription glasses, contact lens, Scarborough, Toronto, Markham, Local, Family-owned, Optical, optometrist, frames, eyeglasses, sunglasses, rx, 5 star, small business, local, cheap, lenses">
+    <meta name="author" content="Kalvin Kao">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
+    <section id="home"></section>
+    <div class="wrapper">
+
+        <!-- NAV BAR -->
+        <header>
+            <h1 class="logo"><a class="logo" href="#home">May Optical</a></h1>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <nav class="menu">
+                <ul>
+                    <li><a href="#nav-about" onclick='onClick();'>About</a></li>
+                    <li><a href="#products" onclick='onClick();'>Products</a></li>
+                    <li><a href="#services" onclick='onClick();'>Services</a></li>
+                    <li><a href="#insurance" onclick='onClick();'>Insurance</a></li>
+                    <li><a href="#follow" onclick='onClick();'>Gallery</a></li>
+                    <li><a href="#reviews" onclick='onClick();'>Reviews</a></li>
+                    <li><a href="#contact" onclick='onClick();'>Contact</a></li>
+                </ul>
+            </nav>
+            <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
+        </header>
+
+        <!-- MAIN PAGE START -->
+        <section id="main">
+
+            <!-- HERO IMAGE START -->
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h1 class="slogan1">LOOKING OUT FOR YOUR EYES</h1>
+                    <p class="slogan2">Shop high quality eyewear from around the world</p>
+                    <a href="https://shop.mayoptical.com" target="_blank"><button>View Shop</button></a>
+                </div>
+            </div>
+            <section id="nav-about"></section>
+            <!-- ABOUT -->
+            <section id="about">
+                <h2>ABOUT US</h2>
+                <div id="abtleft">
+                    <img src="imgs/store.png" alt="May Optical Store">
+                </div>
+                <div id="abtright">
+                    <p>
+                        May Optical is a generational family business and has been providing quality eyewear to the Greater Toronto Area since 1985. Originally located on Dundas and Spadina, we relocated to Silver Star Blvd and Steeles Ave. in 2005. We have a unique selection
+                        of frames, sunglasses, contact lenses and are always on the look out for the latest products.
+                    </p>
+                    <p>With clientele spanning 4 generations, we pride ourselves in treating each customer as family and strive to meet each person's visual needs with our experience, knowledge and our everyday great prices.</p>
+                </div>
+            </section>
+        </section>
+
+        <!-- SCROLL TO THE TOP BUTTON -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="icon-chevron-up"></i></button>
+
+
+        <section id="products">
+        </section>
+
+        <!-- BRANDS -->
+        <section id="brands">
+            <h1 class="brands">THE BRANDS YOU LOVE</h1>
+            <div class="grid-container">
+                <div class="grid-item"><img src="imgs/b1.png" alt="For Art's Sake"></div>
+                <div class="grid-item"><img src="imgs/b2.png" alt="TOM FORD"></div>
+                <div class="grid-item"><img src="imgs/b3.png" alt="Saint Laurent"></div>
+                <div class="grid-item"><img src="imgs/b4.png" alt="Gucci"></div>
+                <div class="grid-item"><img src="imgs/b5.png" alt="Salvatore Ferragamo"></div>
+                <div class="grid-item"><img src="imgs/b6.png" alt="Swarovski"></div>
+                <div class="grid-item"><img src="imgs/b7.png" alt="Chloe"></div>
+                <div class="grid-item"><img src="imgs/b8.png" alt="Lacoste"></div>
+                <div class="grid-item"><img src="imgs/b9.png" alt="Tom's"></div>
+            </div>
+            <div style="text-align:center">
+
+                <button onclick="seeMore()" id="btn">SEE MORE</button>
+
+            </div>
+            <span id="dots"></span>
+            <div id="more-div">
+                <span id="more">
+                    Givenchy, Ray-Ban, Anacolé, Marciano, Guess, Emporio Armani, Carrera, O&X, Laura Biagiotti, Easyclip, Easytwist, Timberland, Eyelet Eyewear and more.</span>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section id="services">
+            <article>
+                <h2> SERVICES</h2>
+
+                <!-- <div id="services-col">
+                    <img height="400px" src="imgs/g1-nobg.png" alt="sillhouette glasses"> 
+    </div>-->
+                <div id="services-col">
+                    <h3> We provide:</h3>
+                    <div id="service-list">
+                        <p>
+
+                            <ul>
+                                <li>prescription eyewear</li>
+                                <li>sunglasses</li>
+                                <li>both soft and rigid contact lenses</li>
+                                <li>safety and sport glasses</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <h3> Services include:</h3>
+                    <p>
+                        <ul>
+                            <li>repairs to glasses</li>
+                            <li>adjustments</li>
+                            <li>custom alterations <br>(crystal designs, implant nosepads, temple lengthening and shortening, etc.)</li>
+                        </ul>
+                    </p>
+
+                    <p class="services-bot">
+                        We accept most insurance company claims, MCSS, ODSP.
+                    </p>
+                </div>
+
+
+                <!-- <div id="services-col">
+        <img height="400px" src="imgs/lens-nobg.png" alt="sillhouette glasses">
+    </div> -->
+            </article>
+        </section>
+
+        <!-- INSURANCE -->
+        <section id="insurance">
+            <h2>INSURANCE PARTNERS</h2>
+            <img id="ins-img" src="imgs/insurance.jpg" alt="insurance partenrs">
+
+
+            <div id="vid">
+                <section id="video-wrapper">
+                    <iframe width="700" height="400" src="https://www.youtube.com/embed/APFu-GMqEcU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+            </div>
+
+        </section>
+        <section id="follow">
+
+            <h2>FOLLOW US</h2>
+            <div id="follow-links">
+                <a href="https://www.facebook.com/mayopticalca/" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
+
+                <a href="https://www.instagram.com/mayoptical/" target="_blank"><i class="fab fa-instagram-square fa-3x"></i></a>
+            </div>
+
+            <!-- LightWidget WIDGET -->
+            <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://cdn.lightwidget.com/widgets/cbf92bd7e4325ca9a57019a92a73bf55.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+
+
+        </section>
+
+        <section id="reviews">
+
+            <h2>REVIEWS</h2>
+
+            <div id="divreview">
+                <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                <div class="elfsight-app-0921614f-afcb-4a4a-88f9-80aea69ad574"></div>
+            </div>
+
+            <div class="rev">
+                <a href="https://www.google.com/maps/place/May+Optical/@43.8228814,-79.3009995,15z/data=!4m7!3m6!1s0x0:0xa567a537795e4c53!8m2!3d43.8228814!4d-79.3009995!9m1!1b1" target="_blank">
+                    <button>See All Reviews</button>
+                </a>
+            </div>
+
+
+        </section>
+
+        <section id="contact">
+            <h2>CONTACT</h2>
+            <div class="float-container">
+
+
+
+                <div class="float-child1">
+                    <div class="blue"><b>Phone:</b> <br><a href="tel:+1 416-291-8989"> (416) 291-8989</a><br></div>
+                </div>
+
+                <div class="float-child1">
+                    <div class="email"><b>Email:</b> <br><a href="mailto:hello@mayoptical.com">hello@mayoptical.com</a>
+                    </div>
+                </div>
+
+                <div class="float-child2">
+                    <div class="blue">
+                        <section id="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11514.35648086294!2d-79.3009995!3d43.8228814!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa567a537795e4c53!2sMay%20Optical!5e0!3m2!1sen!2sca!4v1612149661963!5m2!1sen!2sca" width="800" height="300"
+                                frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </section>
+                    </div>
+                </div>
+
+                <div class="float-child">
+                    <div class="float-address"><b>Address:</b> <br>668 Silver Star Blvd. Unit 206,<br> Scarborough, ON, M1V 5N1</div>
+                </div>
+
+                <div class="float-child">
+                    <b>Hours:</b>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Monday</td>
+                                <td class="time">11:00 - 5:00 </td>
+                            </tr>
+                            <tr>
+                                <td>Tuesday&nbsp;</td>
+                                <td>Closed</td>
+                            </tr>
+                            <tr>
+                                <td>Wednesday&nbsp;</td>
+                                <td>Closed</td>
+                            </tr>
+                            <tr>
+                                <td>Thursday&nbsp;</td>
+                                <td class="time">11:00 - 5:00</td>
+                            </tr>
+                            <tr>
+                                <td>Friday&nbsp;</td>
+                                <td class="time">11:00 - 5:00</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday</td>
+                                <td class="time">11:00 - 4:00</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday&nbsp;</td>
+                                <td class="time">12:00 - 4:00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div style=" margin-top: 20px; ">Please note that we are closed on all statutory holidays.</div>
+
+                </div>
+
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+    </div>
+
+    <!--FONTAWESOME ICONS-->
+    <script src="https://kit.fontawesome.com/42de2dc56d.js " crossorigin="anonymous "></script>
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css " rel="stylesheet ">
+
+    <!-- JAVA SCRIPT -->
+    <script src="js/script.js "></script>
+
+
+    <footer class="footer">
+        Copyright © 2021 May Optical. All rights reserved.
+    </footer>
+
 
 </body>
 
