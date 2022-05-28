@@ -1,0 +1,26 @@
+url: https://kalvink.github.io
+baseurl: /mayoptical2/
+
+# Site settings
+title: May Optical
+author: Kalvin Kao
+email: info@mayoptical.com
+description: "May Optical has been providing the GTA with quality and affordable eyewear since 1985."
+
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com/mayopticalca/
+  - title: instagram
+    url: https://www.instagram.com/mayoptical
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 668 Silver Star Blvd. Unit 206,
+  - line: Scarborough, ON, M1V 5N1
+
+# Build settings
+markdown: kramdown
+permalink: pretty
