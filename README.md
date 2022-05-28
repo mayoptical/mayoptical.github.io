@@ -7,7 +7,6 @@ Copyright May Optical and Kalvin Kao.
 
 v2.0
 Languages/Tools:
-
 - HTML, CSS, JS, Bootstrap, Ruby, Jekyll, VS Code
 
 ![image](https://user-images.githubusercontent.com/15093577/170819282-71acc5c2-3572-4f42-9d18-8b5006069bce.png)
@@ -17,16 +16,13 @@ Languages/Tools:
 
 
 v1.0
-
 Languages:
-
 - HTML, CSS, JS
 
 IDE: 
-
 - Visual Studio Code
 
-v1.0
+
 ![Website](https://i.imgur.com/MtOjdeL.png)
 ![Website](https://i.imgur.com/2GxsTDr.png)
 ![Website](https://i.imgur.com/VGBe83N.jpg)
