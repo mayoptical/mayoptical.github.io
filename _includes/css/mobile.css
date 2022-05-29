@@ -3,7 +3,7 @@
         font-size: 11px;
     }
     .container header {
-        width: auto;
+        width: auto !important;
     }
 }
 
