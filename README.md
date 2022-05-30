@@ -6,6 +6,7 @@ Website for an eyewear vendor May Optical based in Scarborough, Ontario.
 Copyright May Optical and Kalvin Kao.
 
 v2.0
+
 Languages/Tools:
 - HTML, CSS, JS, Bootstrap, Ruby, Jekyll, VS Code
 
@@ -16,12 +17,10 @@ Languages/Tools:
 
 
 v1.0
-Languages:
+
+Languages/Tools:
 - HTML, CSS, JS
-
-IDE: 
-- Visual Studio Code
-
+- VS Code
 
 ![Website](https://i.imgur.com/MtOjdeL.png)
 ![Website](https://i.imgur.com/2GxsTDr.png)

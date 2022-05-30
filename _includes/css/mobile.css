@@ -5,6 +5,9 @@
     .container {
         width: auto !important;
     }
+    .navbar-bar {
+        margin: 9.75px -15px !important;
+    }
 }
 
 @media only screen and (min-width: 641px) and (max-width: 767px) {}
