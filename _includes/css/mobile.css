@@ -1,29 +1,111 @@
-@media only screen and (min-width: 768px) and (max-width: 1500px) {
-    #page-scroll {
-        font-size: 11px;
+    @media only screen and (min-width: 768px) and (max-width: 1500px) {
+        #page-scroll {
+            font-size: 11px;
+        }
+        .container {
+            width: auto !important;
+        }
     }
-    .container {
-        width: auto !important;
+    
+    @media only screen and (min-width: 599px) {
+        .navbar-toggle {
+            margin-right: 0px;
+        }
+        .mobile {
+            width: 100% !important;
+        }
+        .col-format-img {
+            height: 60vh;
+        }
+        .col-format-text {
+            height: 65vh;
+        }
+        .collection-img {
+            margin-top: 20vh;
+        }
+        #insurance {
+            padding-bottom: 20vh !important;
+        }
+        .insurance-img {
+            margin-bottom: 10vh !important;
+        }
+        #services {
+            padding-top: 100px !important;
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+            padding-bottom: 100px !important;
+        }
+        .services-mobile {
+            padding-top: 10px !important;
+            padding-left: 50px !important;
+            padding-right: 50px !important;
+            padding-bottom: 50px !important;
+        }
+        .services-text {
+            padding-top: 20px !important;
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+            padding-bottom: 20px !important;
+        }
+        #portfolio {
+            padding-top: 100px !important;
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+            padding-bottom: 100px !important;
+        }
     }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 767px) {
-    .mobile {
-        width: 100% !important;
+    
+    @media only screen and (min-width: 320px) {
+        .navbar-default .navbar-toggle:hover,
+        .navbar-default .navbar-toggle:focus {
+            background-color: #ffffff;
+        }
+        .navbar-default .navbar-toggle .icon-bar {
+            background-color: #000;
+        }
+        .navbar-toggle {
+            margin-right: 0px;
+        }
+        .mobile {
+            width: 100% !important;
+        }
+        .col-format-img {
+            height: 60vh;
+        }
+        .col-format-text {
+            height: 65vh;
+        }
+        .collection-img {
+            margin-top: 20vh;
+        }
+        #insurance {
+            padding-bottom: 20vh !important;
+        }
+        .insurance-img {
+            margin-bottom: 10vh !important;
+        }
+        #services {
+            padding-top: 100px !important;
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+            padding-bottom: 100px !important;
+        }
+        .services-mobile {
+            padding-top: 10px !important;
+            padding-left: 50px !important;
+            padding-right: 50px !important;
+            padding-bottom: 50px !important;
+        }
+        .services-text {
+            padding-top: 20px !important;
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+            padding-bottom: 20px !important;
+        }
+        #portfolio {
+            padding-top: 100px !important;
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+            padding-bottom: 100px !important;
+        }
     }
-    .col-format-img {
-        height: 60vh;
-    }
-    .col-format-text {
-        height: 65vh;
-    }
-    .collection-img {
-        margin-top: 20vh;
-    }
-    #portfolio {
-        padding-top: 100px !important;
-        padding-left: 10px !important;
-        padding-right: 10px !important;
-        padding-bottom: 100px !important;
-    }
-}
