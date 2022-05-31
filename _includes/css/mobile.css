@@ -7,7 +7,26 @@
         }
     }
     
-    @media only screen and (min-width: 599px) {
+    @media only screen and (min-width: 599px) and (max-width: 999px) {
+        #bs-example-navbar-collapse-1 {
+            margin-bottom: 20px !important;
+        }
+        #bs-example-navbar-collapse-1>ul {
+            margin: auto !important;
+        }
+        .page-scroll {
+            text-align: center;
+        }
+        .nav>li>a {
+            padding: 10px 50px !important;
+        }
+        .navbar-default .navbar-toggle:hover,
+        .navbar-default .navbar-toggle:focus {
+            background-color: #ffffff;
+        }
+        .navbar-default .navbar-toggle .icon-bar {
+            background-color: #000;
+        }
         .navbar-toggle {
             margin-right: 0px;
         }
@@ -55,7 +74,10 @@
         }
     }
     
-    @media only screen and (min-width: 320px) {
+    @media only screen and (min-width: 320px) and (max-width: 999px) {
+        .nav>li>a {
+            padding: 10px 50px !important;
+        }
         .navbar-default .navbar-toggle:hover,
         .navbar-default .navbar-toggle:focus {
             background-color: #ffffff;
