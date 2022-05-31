@@ -8,14 +8,22 @@
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-    .about-mobile {
+    .mobile {
         width: 100% !important;
     }
     .col-format-img {
         height: 60vh;
     }
-    #about>div>div>div:nth-child(1)>div>div.col-xs-5.col-format-text.revealL.active {
-        background-image: url(img/photos/20220504_MayOptical_website-7.jpg);
-        background-size: cover;
+    .col-format-text {
+        height: 65vh;
+    }
+    .collection-img {
+        margin-top: 20vh;
+    }
+    #portfolio {
+        padding-top: 100px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        padding-bottom: 100px !important;
     }
 }
