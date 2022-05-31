@@ -75,6 +75,15 @@
     }
     
     @media only screen and (min-width: 320px) and (max-width: 999px) {
+        #bs-example-navbar-collapse-1 {
+            margin-bottom: 20px !important;
+        }
+        #bs-example-navbar-collapse-1>ul {
+            margin: auto !important;
+        }
+        .page-scroll {
+            text-align: center;
+        }
         .nav>li>a {
             padding: 10px 50px !important;
         }
