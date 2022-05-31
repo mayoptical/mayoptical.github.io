@@ -7,8 +7,8 @@
     }
 }
 
-@media only screen and (min-width: 414px) and (max-width: 767px) {
-    .col-xs-7 {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .about-mobile {
         width: 100%;
     }
     .col-format-img {
@@ -19,5 +19,3 @@
         background-size: cover;
     }
 }
-
-@media only screen and (min-width: 320px) {}
