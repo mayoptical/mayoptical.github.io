@@ -5,13 +5,19 @@
     .container {
         width: auto !important;
     }
-    .navbar-bar {
-        margin: 9.75px -15px !important;
-    }
 }
 
-@media only screen and (min-width: 641px) and (max-width: 767px) {}
-
-@media only screen and (max-width: 360px) and (max-height: 640px) {}
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+    .col-xs-7 {
+        width: 100%;
+    }
+    .col-format-img {
+        height: 60vh;
+    }
+    #about>div>div>div:nth-child(1)>div>div.col-xs-5.col-format-text.revealL.active {
+        background-image: url(img/photos/20220504_MayOptical_website-7.jpg);
+        background-size: cover;
+    }
+}
 
 @media only screen and (min-width: 320px) {}
