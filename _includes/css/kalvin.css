@@ -1,11 +1,3 @@
-html {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden !important;
-}
-
 #myBtn {
     display: none;
     position: fixed;
@@ -281,4 +273,12 @@ html {
 #contact {
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden !important;
 }
