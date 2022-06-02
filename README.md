@@ -10,6 +10,10 @@ v2.0
 Languages/Tools:
 - HTML, CSS, JS, Bootstrap, Ruby, Jekyll, VS Code
 
+D:\
+cd D:\Projects\Web Development\mayoptical.github.io
+bundle exec jekyll serve
+
 ![image](https://user-images.githubusercontent.com/15093577/170819282-71acc5c2-3572-4f42-9d18-8b5006069bce.png)
 
 
