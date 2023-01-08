@@ -283,3 +283,7 @@ html {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
+#page-top>header>div>div>a:hover {
+    background-color: #dddddd;
+}
