@@ -6,6 +6,11 @@ html {
     overflow-x: hidden !important;
 }
 
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    text-decoration: underline;
+}
+
 #myBtn {
     display: none;
     position: fixed;
