@@ -14,9 +14,14 @@ D:\
 cd D:\Projects\Web Development\mayoptical.github.io
 bundle exec jekyll serve
 
-![image](https://user-images.githubusercontent.com/15093577/170819282-71acc5c2-3572-4f42-9d18-8b5006069bce.png)
-
-
+![image](https://user-images.githubusercontent.com/15093577/221084164-b3024d2d-6a6b-49ab-b557-6bb4221d18e1.png)
+![image](https://user-images.githubusercontent.com/15093577/221084045-aa0d0e83-73bb-4b6d-ab08-ee875a944cd7.png)
+![image](https://user-images.githubusercontent.com/15093577/221084069-7cc73c53-00bc-4212-9505-9352a75aaa8d.png)
+![image](https://user-images.githubusercontent.com/15093577/221084082-55f05c5e-ca29-4a05-86ce-6cdd71b20c71.png)
+![image](https://user-images.githubusercontent.com/15093577/221084107-ef96eb29-0454-4e6a-8e2f-9240d7ea225e.png)
+![image](https://user-images.githubusercontent.com/15093577/221084125-3e29bab6-bf43-468f-8d2a-35de44fb098b.png)
+![image](https://user-images.githubusercontent.com/15093577/221084134-e9d331c9-645d-4995-b300-975b0ace8c77.png)
+![image](https://user-images.githubusercontent.com/15093577/221084147-21448d07-872c-4d10-a95f-51d43b01b12a.png)
 
 
 
