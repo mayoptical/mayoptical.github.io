@@ -41,9 +41,9 @@ html {
 }
 
 .page-scroll.btn.btn-xl:hover {
-    border-color: white;
-    color: white;
-    background-color: #000000;
+    border-color: white !important;
+    color: white !important;
+    background-color: #004d99 !important;
 }
 
 .collection-brand-gallery {
